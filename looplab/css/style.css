@@ -1,0 +1,107 @@
+body {
+  background: #ffff;
+  color: #012169;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.display-4 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#home-section {
+  background: url(../img/acrepairimage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(230, 227, 227, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #fff;
+  background: darkblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.middle-ware {
+  background: crimson !important;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bg-cyan {
+  background-color: #012169;
+}
+
+.text-homecolor {
+  color: #012169 !important;
+}
+
+.logo-settings {
+  width: 82px;
+  height: 40px;
+  margin-left: -10px !important;
+}
+.logo-font {
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: crimson;
+  letter-spacing: 3px;
+}
+.logo-font-hC {
+  color: darkblue;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.mobilesec {
+  color: black !important;
+  background: #fff !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+.text-red {
+  color: red;
+}
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+.font-section {
+  color: #2783e5 !important;
+  font-weight: 500 !important;
+}
+.font-section:hover {
+  color: crimson !important;
+  font-weight: 500 !important;
+}
